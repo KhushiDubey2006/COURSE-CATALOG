@@ -1,0 +1,14 @@
+{
+  "name": "course-catalog",
+  "version": "1.0.0",
+  "description": "The Course Catalog System is a Full Stack MERN (MongoDB, Express.js, React.js, Node.js) application designed to manage academic courses efficiently. The system provides complete CRUD functionality along with bookmarking, filtering, sorting, and dynamic UI updates.",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
